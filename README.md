@@ -24,3 +24,6 @@ tns debug <platform>
 tns build <platform> --env.production
 
 ```
+
+## License
+Al Quran Mobile Nativescript is licensed under the <a href="http://opensource.org/licenses/MIT">MIT license</a>.

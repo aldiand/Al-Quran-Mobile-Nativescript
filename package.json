@@ -1,16 +1,23 @@
 {
   "name": "quran-nativescript",
   "main": "app/app.ts",
+  "description": "Al-quran App Build on Nativescript",
+  "author": "Andre Bahtiar Fauzi <supersandre@gmail.com>",
+  "license": "MIT",
   "version": "2.0.0",
   "private": true,
   "dependencies": {
     "@nativescript/core": "~8.1.1",
     "@nativescript/theme": "~3.0.1",
-    "nativescript-vue": "~2.9.0"
+    "lodash": "^4.17.21",
+    "nativescript-vue": "~2.9.0",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
+    "@nativescript/android": "8.1.1",
     "@nativescript/types": "~8.1.1",
     "@nativescript/webpack": "~5.0.0",
+    "@types/lodash": "^4.14.178",
     "@types/node": "~14.6.2",
     "nativescript-vue-template-compiler": "~2.9.0",
     "typescript": "~4.3.5",

@@ -1,5 +1,8 @@
 import Vue from 'nativescript-vue'
 import Home from './components/Home.vue'
+import Vuex from 'vuex'
+import App from './components/App.vue'
+import store from './store'
 
 declare let __DEV__: boolean;
 
@@ -7,5 +10,6 @@ declare let __DEV__: boolean;
 Vue.config.silent = !__DEV__
 
 new Vue({
-  render: (h) => h('frame', [h(Home)]),
+  store,
+  render: (h) => h('frame', [h(App)]),
 }).$start()
